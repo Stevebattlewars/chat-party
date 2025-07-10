@@ -1,0 +1,34 @@
+{
+  "name": "chat-app-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "socket.io",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend server for Chat Party real-time application",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "mysql2": "^3.11.3",
+    "serve-static": "^2.2.0",
+    "socket.io": "^4.7.5"
+  }
+}
