@@ -383,4 +383,4 @@ For support, email support@yourdomain.com or create an issue on GitHub.
 
 ---
 
-**Note:** This application is designed for educational and demonstration purposes. For production use, additional security measures and performance optimizations may be required. 
+**Note:** This application is designed for educational and demonstration purposes. For production use, additional security measures and performance optimizations may be required. # Updated for deployment
