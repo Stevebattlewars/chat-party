@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+module.exports = (req, res) => {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
@@ -14,9 +14,10 @@ export default function handler(req, res) {
       status: 'OK',
       environment: 'production',
       timestamp: new Date().toISOString(),
-      message: 'Chat Party Backend is running on Vercel'
+      message: 'Chat Party Backend is running on Vercel',
+      note: 'Socket.IO not supported on Vercel - use for API only'
     });
   } else {
     res.status(405).json({ error: 'Method not allowed' });
   }
-} 
+}; 
